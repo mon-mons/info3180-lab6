@@ -5,3 +5,26 @@ body {
 footer  {
     padding-top: 20px;
 }
+
+.news__list{
+     display:grid;
+     grid-template-columns: repeat(3, 1fr); /* repeats three colums for every unknown number of rows*/
+     list-style-type: none;
+}
+#nws{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.artimg{
+    width: 300px;
+    height: auto;
+}
+
+.news__item{
+  border-top: 5px solid rgb(14, 207, 159);
+  border-radius:9 px;
+  margin: 10px ;
+  padding: 15px ;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
